@@ -1,22 +1,3 @@
-// // src/counterSlice.js
-// import { createSlice } from '@reduxjs/toolkit';
-
-// const counterSlice = createSlice({
-//   name: 'counter',
-//   initialState: 0,
-//   reducers: {
-//     increment: (state) => state + 1,
-//     decrement: (state) => state - 1,
-//     rest: (state) => state * 0,
-//   },
-// });
-
-// export const { increment, decrement, rest } = counterSlice.actions;
-// export default counterSlice.reducer;
-
-
-
-// src/todoSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const todoSlice = createSlice({

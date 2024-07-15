@@ -1,4 +1,3 @@
-// src/TodoList.jsx
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addTodo, toggleTodo, removeTodo } from './todoSlice';
